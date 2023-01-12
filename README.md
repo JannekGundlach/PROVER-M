@@ -15,13 +15,13 @@ Two options are provided for running PROVER-M:
 
 ### Use of program
 
-% How to use
-	\- To begin a simulation, first, the GUI App needs to be started ("main_appDesigner.mlapp") with a double-click. 
-	\- The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-Button.
-	\- After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-Button. 
-	\- An exemplary simulation case based on the study of Delo & Burt (1987) is configured through "Default". Please check the publication for a more detailed case description.
-	\- By clicking the "START"-Button, the simulation is initiated.
-	\- In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
+**How to use**
+	- To begin a simulation, first, the GUI App needs to be started ("main_appDesigner.mlapp") with a double-click. 
+	- The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-Button.
+	- After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-Button. 
+	- An exemplary simulation case based on the study of Delo & Burt (1987) is configured through "Default". Please check the publication for a more detailed case description.
+	- By clicking the "START"-Button, the simulation is initiated.
+	- In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
 
 **Input**
 ---
