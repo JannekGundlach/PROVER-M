@@ -30,7 +30,7 @@ Two options are provided for running PROVER-M:
 ---
 ```
 - Ambient parameters
-	- Water depth 			*(101 to 10²)*
+	- Water depth 			*(10<sup>1</sup> to 10²)*
 	- Ambient velocities		*(-2.5 to 2.5)*
 	- Ambient densities		*(around 10³)*
 ```	
