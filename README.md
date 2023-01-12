@@ -28,18 +28,18 @@ Two options are provided for running PROVER-M:
 *(including order of magnitude)*
 
 ---
-
+```
 - Ambient parameters
-	- Water depth 			*('10^1' to 10²)*
+	- Water depth 			*(101 to 10²)*
 	- Ambient velocities		*(-2.5 to 2.5)*
 	- Ambient densities		*(around 10³)*
-	
+```	
 - Hopper settings
 	- Disposal volume		*(10² to 104)*
 	- Hopper draft			*(100 to 101)*
 	- Dumping instances (divides a disposal into n-equal intervals that are disposed consecutively)
 	
-- Settling			*(-1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is calculated based on the critical shear stress.)*
+- Settling			*(-1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress.)*
 
 - Coefficients *(All coefficients should be changed carefully and within an order of magnitude)*
 	- Entrainment 	(Phase 1)	*(e-1)*
