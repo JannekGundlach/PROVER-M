@@ -3,7 +3,7 @@ PROVER-M is a near-field model for projecting disposals of fine sediments in coa
 
 ### Introduction
 
-PROVER-M (ProzessverstÃ¤ndnis von VerklappungsvorgÃ¤ngen von Feinsediment in tidebeeinflussten GewÃ¤ssern) is a near-field model for projecting disposals of fine sediments in coastal and estuarine environments.
+PROVER-M (Prozessverständnis von Verklappungsvorgängen von Feinsediment in tidebeeinflussten Gewässern) is a near-field model for projecting disposals of fine sediments in coastal and estuarine environments.
 
 ### Installation
 
