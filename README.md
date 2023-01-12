@@ -33,35 +33,35 @@ Two options are provided for running PROVER-M:
 ---
 
 **Ambient parameters**
-	- Water depth 			*(10<sup>1</sup> to 10<sup>2</sup>)*
-	- Ambient velocities		*(-2.5 to 2.5)*
-	- Ambient densities		*(around 10<sup>3</sup>)*
+- Water depth 			*(10<sup>1</sup> to 10<sup>2</sup>)*
+- Ambient velocities		*(-2.5 to 2.5)*
+- Ambient densities		*(around 10<sup>3</sup>)*
 ---	
 **Hopper settings**
-	- Disposal volume		*(10<sup>2</sup> to 10<sup>4</sup>)*
-	- Hopper draft			*(10<sup>0</sup> to 10<sup>1</sup>)*
-	- Dumping instances *(divides a disposal into n-equal intervals that are disposed consecutively)*
+- Disposal volume		*(10<sup>2</sup> to 10<sup>4</sup>)*
+- Hopper draft			*(10<sup>0</sup> to 10<sup>1</sup>)*
+- Dumping instances *(divides a disposal into n-equal intervals that are disposed consecutively)*
 ---	
 **Settling**			*(-1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress.)*
 ---
 **Coefficients** *(All coefficients should be changed carefully and within an order of magnitude)*
-	- Entrainment 	(Phase 1)	*(10<sup>-1</sup>)*
-	- Entrainment 	(Phase 2)	*(10<sup>-1</sup>)*
-	- Mass				*(10<sup>0</sup>)*
-	- Drag 		(Phase 1)	*(10<sup>0</sup>)*
-	- Drag 		(Phase 2)	*(10<sup>-2</sup> to 10<sup>-1</sup>)*
-	- Friction			*(10<sup>-2</sup>)*
-	- Stripping			*(10<sup>-3</sup>)*
+- Entrainment 	(Phase 1)	*(10<sup>-1</sup>)*
+- Entrainment 	(Phase 2)	*(10<sup>-1</sup>)*
+- Mass				*(10<sup>0</sup>)*
+- Drag 		(Phase 1)	*(10<sup>0</sup>)*
+- Drag 		(Phase 2)	*(10<sup>-2</sup> to 10<sup>-1</sup>)*
+- Friction			*(10<sup>-2</sup>)*
+- Stripping			*(10<sup>-3</sup>)*
 ---
 **Sediment characteristics**
-	- Type
-	- Density
-	- Volumetric fraction
-	- Fall velocity
-	- Void ratio
-	- Critical shear stress
-	- Cohesiveness
-	- Allow the material to be stripped (true for fine sediments, including fine sand)
+- Type
+- Density
+- Volumetric fraction
+- Fall velocity
+- Void ratio
+- Critical shear stress
+- Cohesiveness
+- Allow the material to be stripped (true for fine sediments, including fine sand)
 
 --- 
 
