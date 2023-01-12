@@ -1,9 +1,11 @@
 # PROVER-M
 PROVER-M is a near-field model for projecting disposals of fine sediments in coastal and estuarine environments.
 
+
 ### Introduction
 
 PROVER-M (Prozessverständnis von Verklappungsvorgängen von Feinsediment in tidebeeinflussten Gewässern) is a near-field model for projecting disposals of fine sediments in coastal and estuarine environments.
+
 
 ### Installation
 
@@ -12,6 +14,7 @@ Two options are provided for running PROVER-M:
 **Option A**: Is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone _PROVER.exe_ file, that installs PROVER-M on your system (Windows), including all necessary files for running PROVER-M, is provided. By double-clicking on _PROVER.exe_ and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Now the GUI opens and the user can insert his simulation input for simulating disposals.
 
 **Option B**: Is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts of it. Here, no further installation is needed, but having MATLAB installed is a prerequisite. In the subdirectory _scr_ all scripts necessary to run PROVER-M are provided. If input should be given through the GUI, the user needs to execute _main_appDesigner.mlapp_ and the GUI should open within MATLAB. All other scripts can simply be opened and edited within the MATLAB editor. A list and short description of the scripts can be found below.
+
 
 ### Use of program
 
@@ -26,6 +29,7 @@ Two options are provided for running PROVER-M:
 * By clicking the "START"-Button, the simulation is initiated.
 * In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
 
+
 ### Input
 
 *(including order of magnitude)*
@@ -33,26 +37,26 @@ Two options are provided for running PROVER-M:
 ---
 
 **Ambient parameters**
-- Water depth 			*(10<sup>1</sup> to 10<sup>2</sup>)*
-- Ambient velocities		*(-2.5 to 2.5)*
-- Ambient densities		*(around 10<sup>3</sup>)*
+- Water depth   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>1</sup> to 10<sup>2</sup>)*
+- Ambient velocities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(-2.5 to 2.5)*
+- Ambient densities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>3</sup>)*
 ---	
 **Hopper settings**
-- Disposal volume		*(10<sup>2</sup> to 10<sup>4</sup>)*
-- Hopper draft			*(10<sup>0</sup> to 10<sup>1</sup>)*
-- Dumping instances *(divides a disposal into n-equal intervals that are disposed consecutively)*
+- Disposal volume   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>2</sup> to 10<sup>4</sup>)*
+- Hopper draft   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>0</sup> to 10<sup>1</sup>)*
+- Dumping instances &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(divides a disposal into n-equal intervals that are disposed consecutively)*
 ---	
 **Settling**			
 * -1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress.
 ---
-**Coefficients** *(All coefficients should be changed carefully and within an order of magnitude)*
-- Entrainment 	(Phase 1)	*(10<sup>-1</sup>)*
-- Entrainment 	(Phase 2)	*(10<sup>-1</sup>)*
-- Mass				*(10<sup>0</sup>)*
-- Drag 		(Phase 1)	*(10<sup>0</sup>)*
-- Drag 		(Phase 2)	*(10<sup>-2</sup> to 10<sup>-1</sup>)*
-- Friction			*(10<sup>-2</sup>)*
-- Stripping			*(10<sup>-3</sup>)*
+**Coefficients** *(All coefficients should be changed carefully and within the order of magnitude)*
+- Entrainment Phase 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
+- Entrainment Phase 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
+- Mass  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>0</sup>)*
+- Drag Phase 1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>0</sup>)*
+- Drag Phase 2 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-2</sup> to 10<sup>-1</sup>)*
+- Friction  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-2</sup>)*
+- Stripping  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-3</sup>)*
 ---
 **Sediment characteristics**
 - Type
@@ -66,7 +70,9 @@ Two options are provided for running PROVER-M:
 
 --- 
 
+
 ### Output
+---
 **GUI live feed**
 - Time
 - Cloud radius
@@ -74,19 +80,22 @@ Two options are provided for running PROVER-M:
 - Cloud width
 - Cloud height
 - Settling volume
+---
 **Output file**
 - Cloud parameters as textfile
 - Stripped and settled sediments as textfile
 - Cloud and sediment variables as .mat files
-
+---
 
 
 ### Functionality (Flow chart)
 - An overview of the functionality of the program code in the form of a flow chart can be found \[here](link to paper).
 
-### Necessary packages
 
-Included in the scr-directory are the following files:
+### Necessary packages
+ For executing the PROVER.exe on a Windows system no necessary packages or programs are needed.
+ 
+ Additionally, the scr-directory includes the following files, if you want to adapt or change the source code:
 - *PROVER_M.mlapp*
 	- A MATLAB App that starts the graphical user interface (GUI), for input parameters, simulation start and live feed.
 - *prover_m_main.m*
@@ -98,18 +107,20 @@ Included in the scr-directory are the following files:
 - *prover_m_phase2.m*
 	- The addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
 
+For running the source code files, an installed and licened version of MATLAB by Mathworks is needed.
+
+
 ### License
 
 * GNU GPL License
 
 PROVER-M has been developed in MATLAB and is provided via the Application Compiler provided by MATLABÂ®. Â© 1984 - 2022a The MathWorks, Inc.
 
+
 ### More information
 
 A full account of software functionalities and implemented methods can be found \[here](link to paper).
 
-??? Please file any comments or concerns through the github issue tracker \[here](link to github).
-	\- wollen wir das ???
 
 ### References
 
