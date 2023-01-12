@@ -114,7 +114,7 @@ For running the source code files, an installed and licened version of MATLAB by
 
 * GNU GPL License
 
-PROVER-M has been developed in MATLAB and is provided via the Application Compiler provided by MATLABÂ®. Â© 1984 - 2022a The MathWorks, Inc.
+PROVER-M has been developed in MATLAB and is provided via the Application Compiler provided by MATLAB®. © 1984 - 2022a The MathWorks, Inc.
 
 
 ### More information
