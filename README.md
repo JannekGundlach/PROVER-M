@@ -66,37 +66,37 @@ Two options are provided for running PROVER-M:
 
 --- 
 
-###Output
+### Output
 **GUI live feed**
-	- Time
-	- Cloud radius
-	- Stripping volume
-	- Cloud width
-	- Cloud height
-	- Settling volume
+- Time
+- Cloud radius
+- Stripping volume
+- Cloud width
+- Cloud height
+- Settling volume
 **Output file**
-	- Cloud parameters as textfile
-	- Stripped and settled sediments as textfile
-	- Cloud and sediment variables as .mat files
+- Cloud parameters as textfile
+- Stripped and settled sediments as textfile
+- Cloud and sediment variables as .mat files
 
 
 
-###Functionality (Flow chart)
-	\- An overview of the functionality of the program code in the form of a flow chart can be found \[here](link to paper).
+### Functionality (Flow chart)
+- An overview of the functionality of the program code in the form of a flow chart can be found \[here](link to paper).
 
 ### Necessary packages
 
-Included in the download are the following files:
-	\- main_appDesigner.mlapp
-		\- A MATLAB App that starts the graphical user interface (GUI), for input parameters, simulation start and live feed.
-	\- prover_m_main.m
-		\- Main program code, where the bookkeeping of the cloud and ambient parameters occurs.
-	\- prover_m_rk4.m
-		\- Parameter gradients are approximated utilizing the Runge-Kutta 4th order method in this numerical solver function.
-	\- prover_m_phase1.m
-		\- The addressed variables in the phase of convective descent are calculated using the conservation equations.
-	\- prover_m_phase2.m
-		\- The addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
+Included in the scr-directory are the following files:
+- *PROVER_M.mlapp*
+	- A MATLAB App that starts the graphical user interface (GUI), for input parameters, simulation start and live feed.
+- *prover_m_main.m*
+	- Main program code, where the bookkeeping of the cloud and ambient parameters occurs.
+- *prover_m_rk4.m*
+	- Parameter gradients are approximated utilizing the Runge-Kutta 4th order method in this numerical solver function.
+- *prover_m_phase1.m*
+	- The addressed variables in the phase of convective descent are calculated using the conservation equations.
+- *prover_m_phase2.m*
+	- The addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
 
 ### License
 
