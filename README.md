@@ -42,7 +42,8 @@ Two options are provided for running PROVER-M:
 - Hopper draft			*(10<sup>0</sup> to 10<sup>1</sup>)*
 - Dumping instances *(divides a disposal into n-equal intervals that are disposed consecutively)*
 ---	
-**Settling**			*(-1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress.)*
+**Settling**			
+* -1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress.
 ---
 **Coefficients** *(All coefficients should be changed carefully and within an order of magnitude)*
 - Entrainment 	(Phase 1)	*(10<sup>-1</sup>)*
