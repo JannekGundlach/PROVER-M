@@ -26,7 +26,7 @@ Two options are provided for running PROVER-M:
 * By clicking the "START"-Button, the simulation is initiated.
 * In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
 
-###Input
+### Input
 
 *(including order of magnitude)*
 
