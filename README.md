@@ -9,9 +9,9 @@ PROVER-M (ProzessverstÃ¤ndnis von VerklappungsvorgÃ¤ngen von Feinsediment in
 
 Two options are provided for running PROVER-M:
 
-Option A: Is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone _PROVER.exe_ file, that installs PROVER-M on your system (Windows), including all necessary files for running PROVER-M, is provided. By double-clicking on _PROVER.exe_ and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Now the GUI opens and the user can insert his simulation input for simulating disposals.
+**Option A**: Is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone _PROVER.exe_ file, that installs PROVER-M on your system (Windows), including all necessary files for running PROVER-M, is provided. By double-clicking on _PROVER.exe_ and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Now the GUI opens and the user can insert his simulation input for simulating disposals.
 
-Option B: Is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts of it. Here, no further installation is needed, but having MATLAB installed is a prerequisite. In the subdirectory _scr_ all scripts necessary to run PROVER-M are provided. If input should be given through the GUI, the user needs to execute _main_appDesigner.mlapp_ and the GUI should open within MATLAB. All other scripts can simply be opened and edited within the MATLAB editor. A list and short description of the scripts can be found below.
+**Option B**: Is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts of it. Here, no further installation is needed, but having MATLAB installed is a prerequisite. In the subdirectory _scr_ all scripts necessary to run PROVER-M are provided. If input should be given through the GUI, the user needs to execute _main_appDesigner.mlapp_ and the GUI should open within MATLAB. All other scripts can simply be opened and edited within the MATLAB editor. A list and short description of the scripts can be found below.
 
 ### Use of program
 
@@ -23,7 +23,8 @@ Option B: Is designed for users that want to use the PROVER-M source code and po
 	\- By clicking the "START"-Button, the simulation is initiated.
 	\- In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
 
-% **Input**
+**Input**
+---
 	\- Ambient parameters
 		\- Water depth 			(101 to 10²)
 		\- Ambient velocities		(-2.5 to 2.5)
