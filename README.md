@@ -28,12 +28,12 @@ Two options are provided for running PROVER-M:
 *(including order of magnitude)*
 
 ---
-```
+
 - Ambient parameters
 	- Water depth 			*(10<sup>1</sup> to 10²)*
 	- Ambient velocities		*(-2.5 to 2.5)*
 	- Ambient densities		*(around 10³)*
-```	
+	
 - Hopper settings
 	- Disposal volume		*(10² to 104)*
 	- Hopper draft			*(100 to 101)*
