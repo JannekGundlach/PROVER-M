@@ -125,12 +125,11 @@ A full account of software functionalities and implemented methods can be found 
 ### References
 
 * Delo, E. and Burt, T.N. (1987) Dispersal of dredged material - Tees field study September 1986. Technical Report. Hydraulics Research Wallingford. 
-* Bowers, G. W., & Goldenblatt, M. K. (1978). Calibration of a predctive model for instantanneously discharged dedged material. US Environmental Protecion Agency, Corvallis, OR. EPA-699/3-78-089.
+* Koh, R. C., & Chang, Y. C. (1973). Mathematical model for barged ocean disposal of wastes (Vol. 1). Office of Research and Development, US Environmental Protection Agency.
 * Brandsma, M. G., & Divoky, D. J. (1976). Development of models for prediction of short-term fate of dredged material discharged in the estuarine environment. TETRA TECH INC PASADENA CALIF.
-* ??? Cheng 1999 --> siehe "func_phase2_stfate.m", Zeile 122
-  		\- Cheng, N. -., & Chiew, Y. -. (1999). Analysis of initiation of sediment suspension from bed load. Journal of Hydraulic Engineering, 125(8), 855-861. doi:10.1061/(ASCE)0733-9429(1999)125:8(855)			- ist das das richtige???
-  Escudier, M. P., & Maxworthy, T. (1973). On the motion of turbulent thermals. Journal of Fluid Mechanics, 61(3), 541-552.
 * Johnson, B. H.; Fong, M. T. (1995): Development and verification of numerical models for predicting the initial fate of dredged material disposed in open water. Report 2 - Theoretical developments and verification results (Technical Report DRP-93-1).
-* ??? Turner, J. S. (1960). A comparison between buoyant vortex rings and vortex pairs. Journal of Fluid Mechanics, 7(3), 419-432.
-  		\- weg? siehe "func_phase1_stfate.m" Zeile 121
+* Escudier, M. P., & Maxworthy, T. (1973). On the motion of turbulent thermals. Journal of Fluid Mechanics, 61(3), 541-552.
+* Turner, J. S. (1960). A comparison between buoyant vortex rings and vortex pairs. Journal of Fluid Mechanics, 7(3), 419-432.
+* Partheniades, E. (1965). Erosion and deposition of cohesive soils. Journal of the Hydraulics Division, 91(1), 105-139.
+
   			
