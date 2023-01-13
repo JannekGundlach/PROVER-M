@@ -124,6 +124,7 @@ A full account of software functionalities and implemented methods can be found 
 
 ### References
 
+* Delo, E. and Burt, T.N. (1987) Dispersal of dredged material - Tees field study September 1986. Technical Report. Hydraulics Research Wallingford. 
 * Bowers, G. W., & Goldenblatt, M. K. (1978). Calibration of a predctive model for instantanneously discharged dedged material. US Environmental Protecion Agency, Corvallis, OR. EPA-699/3-78-089.
 * Brandsma, M. G., & Divoky, D. J. (1976). Development of models for prediction of short-term fate of dredged material discharged in the estuarine environment. TETRA TECH INC PASADENA CALIF.
 * ??? Cheng 1999 --> siehe "func_phase2_stfate.m", Zeile 122
