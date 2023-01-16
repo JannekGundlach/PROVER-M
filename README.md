@@ -38,7 +38,7 @@ Two options are provided for running PROVER-M:
 
 **Ambient parameters**
 - Water depth   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>1</sup> to 10<sup>2</sup>)*
-- Ambient velocities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(-2.5 to 2.5)*
+- Ambient velocities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(-10<sup>0</sup> to 10<sup>0</sup>)*
 - Ambient densities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>3</sup>)*
 ---	
 **Hopper settings**
