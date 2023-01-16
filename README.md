@@ -21,8 +21,8 @@ Two options are provided for running PROVER-M:
 **How to use**
 * To begin a simulation, first, the GUI App needs to be started 
 	* either by executing the installed PROVER-M application.
-	* or by opening the scr-directory and double klick "PROVER_M.mlapp".
-	* or opening and playing the "PROVER_M.mlapp" within MATLAB. 
+	* or by opening the scr-directory and double klick "PROVER_M.mlapp" (requires MATLAB).
+	* or opening and playing the "PROVER_M.mlapp" within MATLAB (requires MATLAB). 
 * The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-Button.
 * After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-Button. 
 * An exemplary simulation case based on the study of Delo & Burt (1987) is configured through "Default". Please check the publication for a more detailed case description.
