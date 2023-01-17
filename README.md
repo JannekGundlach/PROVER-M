@@ -66,12 +66,16 @@ Two options are provided for running PROVER-M:
 - Void ratio
 - Critical shear stress
 - Cohesiveness
-- Allow the material to be stripped (true for fine sediments, including fine sand)
+- Allow the material to be stripped (applies to fine sediments, including fine sand)
 
 --- 
 
 
 ### Output
+---
+**Output settings**
+- Desired time step interval
+- Time step for plotting
 ---
 **GUI live feed**
 - Time
@@ -92,7 +96,7 @@ Two options are provided for running PROVER-M:
 - An overview of the functionality of the program code in the form of a flow chart can be found \[here](link to paper).
 
 
-### Necessary packages
+### Prerequisites
  For executing the PROVER.exe on a Windows system no necessary packages or programs are needed.
  
  Additionally, the scr-directory includes the following files, if you want to adapt or change the source code:
