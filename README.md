@@ -4,14 +4,14 @@ PROVER-M is a near-field model for projecting disposals of fine sediments in coa
 
 ### Introduction
 
-PROVER-M (Prozessverständnis von Verklappungsvorgängen von Feinsediment in tidebeeinflussten Gewässern) is a near-field model for projecting disposals of fine sediments in coastal and estuarine environments.
+PROVER-M ("Prozessverständnis von Verklappungsvorgängen von Feinsediment in tidebeeinflussten Gewässern") is a near-field model for projecting disposals of fine sediments in coastal and estuarine environments.
 
 
 ### Installation
 
 Two options are provided for running PROVER-M:
 
-**Option A**: Is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone _PROVER.exe_ file, that installs PROVER-M on your system (Windows), including all necessary files for running PROVER-M, is provided. By double-clicking on _PROVER.exe_ and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Now the GUI opens and the user can insert his simulation input for simulating disposals.
+**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone _PROVER.exe_ file for Windows is provided that installs PROVER-M, including all necessary files for running PROVER-M, is provided. By double-clicking on _PROVER.exe_ and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Now the GUI opens and the user can insert his simulation input for simulating disposals.
 
 **Option B**: Is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts of it. Here, no further installation is needed, but having MATLAB installed is a prerequisite. In the subdirectory _scr_ all scripts necessary to run PROVER-M are provided. If input should be given through the GUI, the user needs to execute _main_appDesigner.mlapp_ and the GUI should open within MATLAB. All other scripts can simply be opened and edited within the MATLAB editor. A list and short description of the scripts can be found below.
 
