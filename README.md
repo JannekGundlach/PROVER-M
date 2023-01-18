@@ -47,7 +47,7 @@ Two options are provided for running PROVER-M:
 - Dumping instances &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(divides a disposal into n-equal intervals that are disposed consecutively)*
 ---	
 **Settling**			
-* -1 to 1 ; pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress.
+* -1 to 1 (pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress)
 ---
 **Coefficients** *(All coefficients should be changed carefully and within the order of magnitude)*
 - Entrainment Phase 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
@@ -74,7 +74,7 @@ Two options are provided for running PROVER-M:
 ### Output
 ---
 **Output settings**
-- Output time step interval ; Sets the desired interval for the output variables for stripped and settled sediments. 
+- Output time step interval (sets the desired interval for the output variables for stripped and settled sediments)
 - Time step for plotting 
 	* 'Yes': Uses the output time step interval for updating the live feed of the cloud propagation through the water column within the GUI.
 	* 'No': Updates the live feed of the cloud propagation through the water column within the GUI using a preset interval of 25 time steps.
