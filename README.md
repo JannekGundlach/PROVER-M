@@ -25,7 +25,7 @@ Two options are provided for running PROVER-M:
 	* or opening and playing the "PROVER_M.mlapp" within MATLAB (requires MATLAB). 
 * The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-Button.
 * After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-Button. 
-* An exemplary simulation case based on the study of Delo & Burt (1987) is configured through "Default". Please check the publication for a more detailed case description.
+* The model input can be reset to the last saved version of the selected input case in two ways. While "Reset sediment data" converts back the sediment characteristics, "Reset input" resets the entire input configuration.
 * By clicking the "START"-Button, the simulation is initiated.
 * In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
 
