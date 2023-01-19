@@ -11,7 +11,7 @@ PROVER-M ("Prozessverständnis von Verklappungsvorgängen von Feinsediment in ti
 
 Two options are provided for running PROVER-M:
 
-**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone *PROVER.exe* file for Windows is provided that installs PROVER-M, including all necessary files for running the model. By double-clicking on *PROVER.exe* and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Input for simulating disposals may be inserted in the graphical user interface (GUI).
+**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone *PROVER.exe* file for Windows is provided that installs PROVER-M, including all necessary files for running the model. By double-clicking on *PROVER.exe* and following the installation instructions, the model is installed. After installation, users can call PROVER-M by executing the installed program from their system. Input for simulating disposals may be inserted in the graphical user interface (GUI).
 
 **Option B**: This option is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts thereof. Here, no further installation is needed, but having MATLAB installed is a prerequisite. All scripts necessary to run PROVER-M are located in the *scr* directory. If the GUI shall be used to provide input, the user needs to execute the *PROVER_M.mlapp* file to open the GUI in MATLAB. All other scripts can simply be opened and edited in the MATLAB editor. A list and short description of the scripts can be found below.
 
@@ -21,7 +21,7 @@ Two options are provided for running PROVER-M:
 **How to use**
 * To begin a simulation, the GUI App needs to be started either by: 
 	1. Executing the installed PROVER-M application.
-	2. Opening the scr-directory and double-click on the file *PROVER_M.mlapp* (requires MATLAB).
+	2. Opening the scr-directory and double-clicking on the file *PROVER_M.mlapp* (requires MATLAB).
 	3. Opening the *PROVER_M.mlapp* in MATLAB (requires MATLAB). 
 * The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-button.
 * After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-button. 
