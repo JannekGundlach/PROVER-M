@@ -112,9 +112,9 @@ If a user wants to adapt or change the source code, the scr-directory includes t
 - *prover_m_rk4.m*
 	- This numerical solver function utilizes the Runge-Kutta 4th order method to approximate parameter gradients
 - *prover_m_phase1.m*
-	- In this function the addressed variables in the phase of convective descent are calculated using the conservation equations.
+	- In this function, the addressed variables in the phase of convective descent are calculated using the conservation equations.
 - *prover_m_phase2.m*
-	- In this function the addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
+	- In this function, the addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
 
 For running the source code files, an installed and licened version of MATLAB by Mathworks is needed.
 
