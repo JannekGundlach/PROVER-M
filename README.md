@@ -11,7 +11,7 @@ PROVER-M ("Prozessverständnis von Verklappungsvorgängen von Feinsediment in ti
 
 Two options are provided for running PROVER-M:
 
-**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone *PROVER.exe* file for Windows is provided that installs PROVER-M, including all necessary files for running PROVER-M. By double-clicking on *PROVER.exe* and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Input for simulating disposals may be inserted in the graphical user interface (GUI).
+**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone *PROVER.exe* file for Windows is provided that installs PROVER-M, including all necessary files for running the model. By double-clicking on *PROVER.exe* and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Input for simulating disposals may be inserted in the graphical user interface (GUI).
 
 **Option B**: This option is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts thereof. Here, no further installation is needed, but having MATLAB installed is a prerequisite. All scripts necessary to run PROVER-M are located in the *scr* directory. If the GUI shall be used to provide input, the user needs to execute the *PROVER_M.mlapp* file to open the GUI in MATLAB. All other scripts can simply be opened and edited in the MATLAB editor. A list and short description of the scripts can be found below.
 
