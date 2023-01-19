@@ -92,6 +92,7 @@ Two options are provided for running PROVER-M:
 - Stripped and settled sediments as textfile
 - Cloud and sediment variables as MAT-files
 ---
+*Output files are stored in a directory "output". If the PROVER-M stand alone .exe has been used, the data will be stored under C:\Users\username\AppData\Local\Temp\username\mcrCache9.12\PROVER0\PROVER_M\output. The accessability will be changed with the next update.*
 
 
 ### Functionality (Flow chart)
