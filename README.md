@@ -74,7 +74,7 @@ Two options are provided for running PROVER-M:
 ### Output
 ---
 **Output settings**
-- Output time step interval (sets the desired interval for the output variables for stripped and settled sediments)
+- Output time step interval (sets the interval for the output variables for stripped and settled sediments)
 - Time step for plotting 
 	* 'Yes': Uses the output time step interval for updating the live feed of the cloud propagation through the water column within the GUI.
 	* 'No': Updates the live feed of the cloud propagation through the water column within the GUI using a preset interval of 25 time steps.
