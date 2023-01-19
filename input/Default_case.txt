@@ -8,7 +8,7 @@ AmbientXVelocity	0.5
 AmbientYVelocity	0						
 AmbientDensityTop	1010						
 AmbientDensityBottom	1010.3						
-CriticalVelocity	0.05						
+CriticalVelocity	0.075						
 							
 % Hopper Settings							
 DisposalVolume	3702						
@@ -22,7 +22,7 @@ alpha1Entrainment	0.28
 alpha2Entrainment	0.15						
 cMMass	1						
 cD1Drag	5						
-cD2Drag	0.05						
+cD2Drag	0.1						
 cFFriction	0.001						
 psiStrip	0.01						
 							

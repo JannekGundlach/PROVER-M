@@ -4,7 +4,7 @@
 %% Model input							
 % Ambient Settings							
 WaterDepth	27						
-AmbientXVelocity	0.2						
+AmbientXVelocity	0.22						
 AmbientYVelocity	0						
 AmbientDensityTop	1010						
 AmbientDensityBottom	1010.3						
