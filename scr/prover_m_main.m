@@ -115,16 +115,6 @@ for i_dump = 1:n_dump                                                           
         else
             dt = dt_uni;                                                        % corresponds to well-mixed water column
         end
-        % adjust time step to desired far-field time step if in reasonable deviation
-        frac_dt = dt_sim/round(dt_sim/dt);                                      % find nearest fraction of dt_sim
-        dev_dt = max(dt,frac_dt)/min(dt,frac_dt) - 1;                           % deviation of dt from the nearest fraction
-        if dev_dt <= 0.2                                                        % only adjust the time step if the deviation is lower than or equal to 20%
-            dt = frac_dt;
-        else
-            dt = dt;
-            feedText = [feedText; 'Desired output time step interval could not be realized. Consider adjusting the value.']; 
-            app.commandfeedTextArea.Value = feedText;                           % give feedback to command feed
-        end
     end
 
     %% Time iteration in Phase 1 (Convective Descent)
@@ -373,8 +363,7 @@ for i_dump = 1:n_dump                                                           
             else                                                                % case when work is done
                 delta_KE(E_counter) = delta_Work(E_counter) - delta_PE(E_counter);      % get change in kinetic energy from potential energy and work
             end
-            mass_factor = (Cloud(istep).m/Cloud(istep-1).m);                    % accounting of the effect of entrainment and settling on the kinetic energy
-            KE_P2(E_counter) = (KE_P2(E_counter-1) + delta_KE(E_counter))/mass_factor;        % kinetic energy at the current (E-counter) time step
+            KE_P2(E_counter) = (KE_P2(E_counter-1) + delta_KE(E_counter));      % kinetic energy at the current (E-counter) time step
             Cloud_Input(5) = KE_P2(E_counter);                                  % assign kinetic energy as Input for the next time step
             Cloud(istep).KE = KE_P2(E_counter);                                 % assign kinetic energy as a cloud variable
             Cloud(istep).PE = PE_P2(E_counter);                                 % assign potential energy as a cloud variable
