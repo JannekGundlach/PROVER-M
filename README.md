@@ -11,22 +11,22 @@ PROVER-M ("Prozessverständnis von Verklappungsvorgängen von Feinsediment in ti
 
 Two options are provided for running PROVER-M:
 
-**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone _PROVER.exe_ file for Windows is provided that installs PROVER-M, including all necessary files for running PROVER-M, is provided. By double-clicking on _PROVER.exe_ and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Now the GUI opens and the user can insert his simulation input for simulating disposals.
+**Option A**: This option is designed for users that want to apply PROVER-M without any adaptions to the source code. A stand-alone *PROVER.exe* file for Windows is provided that installs PROVER-M, including all necessary files for running PROVER-M, is provided. By double-clicking on *PROVER.exe* and following the installation instructions, the model is installed. After installation, the user can call PROVER-M by executing the installed program from your system. Input for simulating disposals may be inserted in the graphical user interface (GUI).
 
-**Option B**: Is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts of it. Here, no further installation is needed, but having MATLAB installed is a prerequisite. In the subdirectory _scr_ all scripts necessary to run PROVER-M are provided. If input should be given through the GUI, the user needs to execute _main_appDesigner.mlapp_ and the GUI should open within MATLAB. All other scripts can simply be opened and edited within the MATLAB editor. A list and short description of the scripts can be found below.
+**Option B**: This option is designed for users that want to use the PROVER-M source code and possibly adapt or expand parts thereof. Here, no further installation is needed, but having MATLAB installed is a prerequisite. All scripts necessary to run PROVER-M are located in the *scr* directory. If the GUI shall be used to provide input, the user needs to execute the *PROVER_M.mlapp* file to open the GUI in MATLAB. All other scripts can simply be opened and edited in the MATLAB editor. A list and short description of the scripts can be found below.
 
 
 ### Use of program
 
 **How to use**
-* To begin a simulation, first, the GUI App needs to be started 
-	* either by executing the installed PROVER-M application.
-	* or by opening the scr-directory and double klick "PROVER_M.mlapp" (requires MATLAB).
-	* or opening and playing the "PROVER_M.mlapp" within MATLAB (requires MATLAB). 
-* The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-Button.
-* After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-Button. 
+* To begin a simulation, the GUI App needs to be started either by: 
+	1. Executing the installed PROVER-M application.
+	2. Opening the scr-directory and double-click on the file *PROVER_M.mlapp* (requires MATLAB).
+	3. Opening the *PROVER_M.mlapp* in MATLAB (requires MATLAB). 
+* The model input can be set by changing individual parameters or by selecting an existing input text file via the "Input case" dropdown menu or the "Load.."-button.
+* After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-button. 
 * The input can be reset to the last saved version of the selected input case in two ways. While "Reset sediment data" converts back the sediment characteristics, "Reset input" resets the entire input configuration.
-* By clicking the "START"-Button, the simulation is initiated.
+* By clicking the "START"-button, the simulation is initiated.
 * In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
 
 
@@ -36,7 +36,7 @@ Two options are provided for running PROVER-M:
 
 ---
 
-**Ambient parameters**
+**Ambient parameters** *(incl. suggested order of magnitude)*
 - Water depth   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>1</sup> to 10<sup>2</sup>)*
 - Ambient velocities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(-10<sup>0</sup> to 10<sup>0</sup>)*
 - Ambient densities   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(10<sup>3</sup>)*
@@ -47,14 +47,14 @@ Two options are provided for running PROVER-M:
 - Dumping instances &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(divides a disposal into n-equal intervals that are disposed consecutively)*
 ---	
 **Settling**			
-* -1 to 1 (pure reduction factor for positive values. For negative values the reduction factor is based on the critical shear stress)
+* -1 to 1 (For positive values [0-1], the reduction factor determines the fraction of the sediment to be settled. For a reduction factor of -1, the settling is only based on the critical shear stress.)
 ---
-**Coefficients** *(All coefficients should be changed carefully and within the order of magnitude)*
-- Entrainment Phase 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
-- Entrainment Phase 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
+**Coefficients** *(All coefficients should be selected carefully and within the limits of the given order of magnitude)*
+- Entrainment phase 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
+- Entrainment phase 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-1</sup>)*
 - Mass  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>0</sup>)*
-- Drag Phase 1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>0</sup>)*
-- Drag Phase 2 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-2</sup> to 10<sup>-1</sup>)*
+- Drag phase 1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>0</sup>)*
+- Drag phase 2 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-2</sup> to 10<sup>-1</sup>)*
 - Friction  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-2</sup>)*
 - Stripping  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *(10<sup>-3</sup>)*
 ---
@@ -66,7 +66,7 @@ Two options are provided for running PROVER-M:
 - Void ratio
 - Critical shear stress
 - Cohesiveness
-- Allow the material to be stripped (applies to fine sediments, including fine sand)
+- Allowing the material to be stripped (applies to fine sediments, including fine sand)
 
 --- 
 
@@ -90,7 +90,7 @@ Two options are provided for running PROVER-M:
 **Output file**
 - Cloud parameters as textfile
 - Stripped and settled sediments as textfile
-- Cloud and sediment variables as .mat files
+- Cloud and sediment variables as MAT-files
 ---
 
 
@@ -99,19 +99,21 @@ Two options are provided for running PROVER-M:
 
 
 ### Prerequisites
- For executing the PROVER.exe on a Windows system no necessary packages or programs are needed.
+For executing the PROVER.exe on a Windows system no necessary packages or programs are needed.
  
- Additionally, the scr-directory includes the following files, if you want to adapt or change the source code:
+ 
+### Source Code 
+If a user wants to adapt or change the source code, the scr-directory includes the following files:
 - *PROVER_M.mlapp*
-	- A MATLAB App that starts the graphical user interface (GUI), for input parameters, simulation start and live feed.
+	- A MATLAB App that starts the GUI, which may be used for selecting input parameters, starting simulations and accessing the live feed.
 - *prover_m_main.m*
 	- Main program code, where the bookkeeping of the cloud and ambient parameters occurs.
 - *prover_m_rk4.m*
-	- Parameter gradients are approximated utilizing the Runge-Kutta 4th order method in this numerical solver function.
+	- This numerical solver function utilizes the Runge-Kutta 4th order method to approximate parameter gradients
 - *prover_m_phase1.m*
-	- The addressed variables in the phase of convective descent are calculated using the conservation equations.
+	- In this function the addressed variables in the phase of convective descent are calculated using the conservation equations.
 - *prover_m_phase2.m*
-	- The addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
+	- In this function the addressed variables in the phase of dynamic collapse are calculated using the energy concept equations. 
 
 For running the source code files, an installed and licened version of MATLAB by Mathworks is needed.
 
