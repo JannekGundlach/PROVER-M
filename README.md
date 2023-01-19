@@ -27,7 +27,7 @@ Two options are provided for running PROVER-M:
 * After setting the desired input parameters, the configuration can be saved as a text file by clicking the "Save as.."-button. 
 * The input can be reset to the last saved version of the selected input case in two ways. While "Reset sediment data" converts back the sediment characteristics, "Reset input" resets the entire input configuration.
 * By clicking the "START"-button, the simulation is initiated.
-* In the right half of the GUI a live feed of the cloud propagation through the water column and main parameters is presented.
+* In the right half of the GUI, a live feed of the cloud propagation through the water column and main parameters is presented.
 
 
 ### Input
