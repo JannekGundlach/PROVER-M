@@ -100,7 +100,7 @@ Two options are provided for running PROVER-M:
 
 
 ### Prerequisites
-For executing the *PROVER.exe* on a Windows system no necessary packages or programs are needed.
+For executing the *PROVER.exe* on a Windows system, no necessary packages or programs are needed.
  
  
 ### Source Code 
