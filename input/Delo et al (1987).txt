@@ -22,7 +22,7 @@ alpha1Entrainment	0.28
 alpha2Entrainment	0.15						
 cMMass	1						
 cD1Drag	5						
-cD2Drag	0.25						
+cD2Drag	0.125						
 cFFriction	0.01						
 psiStrip	0.001						
 							
