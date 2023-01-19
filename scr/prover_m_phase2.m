@@ -2,6 +2,7 @@ function [varargout] = prover_m_phase2(Cloud_Input,Hopper,Sediment,Para,d,rho_am
 %% prover_m_phase2: Dynamic Collapse
 % Made by:          Jannek Gundlach
 % Date of Change:   13.01.2023
+% License:          GNU GPL
 % Definition:       Sediment spreading radially on the ground after impact.
 %                   Calculating the change in x, y, and z direction based on the conservation of 
 %                   energy per Runge-Kutta 4 (RK4) fraction of the time step 

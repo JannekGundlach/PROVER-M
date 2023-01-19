@@ -2,6 +2,7 @@ function [E1] = prover_m_main(app,file_info,d,amb,rho_amb_init,z_i,u_amb_crit,ma
 %% prover_m_phase1: Convective Descent
 % Made by:          Jannek Gundlach and Maximilian Behnke
 % Date of Change:   17.01.2023
+% License:          GNU GPL
 % Definition:       Main script that is called by the GUI.
 %                   Here, bookkeeping of the sediment cloud, sediment
 %                   losses due to stripping and settling is done.

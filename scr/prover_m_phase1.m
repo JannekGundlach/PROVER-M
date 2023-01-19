@@ -3,6 +3,7 @@ function [varargout] = prover_m_phase1(Cloud_Input,Hopper,Sediment,Coef,d,Rho_am
 %% prover_m_phase1: Convective Descent
 % Made by:          Jannek Gundlach
 % Date of Change:   13.01.2023
+% License:          GNU GPL
 % Definition:       Sediment entering the water column and descending
 %                   Calculating the change in mass, momentum, buoyancy, 
 %                   vorticity and solids per Runge-Kutta 4 (RK4) fraction of the time step 

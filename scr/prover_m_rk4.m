@@ -3,6 +3,7 @@ function [varargout] = prover_m_rk4(Cloud,b_impact,Hopper,Sediment,Para,d,dt,qe,
 %% prover_m_phase1: Convective Descent
 % Made by:          Jannek Gundlach
 % Date of Change:   13.01.2023
+% License:          GNU GPL
 % Definition:       Numerical solver based on the classic Runge-Kutta 4 (RK4) scheme.
 %                   It calls the Convective Descent function and the Dynamic Collapse,
 %                   dependent on the vertical position of the cloud. RK4 splits the numerical
